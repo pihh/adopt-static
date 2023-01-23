@@ -111,6 +111,17 @@ body {
   content: var(--adopt-url-logo-pink);
 }
 
+/** Imagens **/
+.img-logo-google {
+  content: var(--adopt-url-logo-google);
+}
+.img-logo-office {
+  content: var(--adopt-url-logo-office);
+}
+.img-logo-pink {
+  content: var(--adopt-url-logo-pink);
+}
+
 /** Typografia **/
 .typography__title {
   color: var(--adopt-color-gray-dark);
@@ -150,7 +161,7 @@ body {
   line-height: 1.375;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1.25rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -204,13 +215,6 @@ body {
 .adopt__social-network__container .adopt__social-network img {
   width: 1.5rem;
   height: 1.5rem;
-}
-
-.img-logo-google {
-  content: var(--adopt-url-logo-google);
-}
-.img-logo-office {
-  content: var(--adopt-url-logo-office);
 }
 
 /* Forgot password */
