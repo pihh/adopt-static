@@ -16,11 +16,11 @@
   --adopt-color-gray-light: #e5e7eb;
 
   /* Imagens */
-  --adopt-url-logo-pink: url("logo-pink.svg");
-  --adopt-url-logo-gray: url("logo-gray.svg");
-  --adopt-url-logo-google: url("logo-google.png");
-  --adopt-url-logo-office: url("logo-office.png");
-  --adopt-url-store: url("store.jpg");
+  --adopt-url-logo-pink: url("/assets/images/logo-pink.svg");
+  --adopt-url-logo-gray: url("/assets/images/logo-gray.svg");
+  --adopt-url-logo-google: url("/assets/images/logo-google.png");
+  --adopt-url-logo-office: url("/assets/images/logo-office.png");
+  --adopt-url-store: url("/assets/images/store.jpg");
 }
 
 /** Estilos aplicados ao body **/

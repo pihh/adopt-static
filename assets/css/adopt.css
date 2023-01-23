@@ -39,7 +39,7 @@
   top: -100vh;
   left: -100vw;
   z-index: 0;
-  background: url(/assets/logo-gray.svg) 0 0 repeat;
+  background: url(/assets/images/logo-gray.svg) 0 0 repeat;
   background-color: rgb(249 250 251);
   transform: rotate(-15deg);
   overflow: hidden;
@@ -52,6 +52,6 @@
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background: url(/assets/bg.png);
+  background: url(/assets/images/bg.png);
   background-size: cover;
 }
