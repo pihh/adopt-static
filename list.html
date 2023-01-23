@@ -1,0 +1,354 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>List | Adopt</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link integrity="" rel="stylesheet" href="/assets/adopt.css" />
+    <link integrity="" rel="stylesheet" href="/assets/tailwind.css" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="ember-application">
+    <div style="display: flex; height: 100vh">
+      <div class="bg-gray-50 py-6" style="width: 15vw">
+        <div
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <a id="ember109" class="ember-view" href="/dashboard">
+            <img
+              src="https://www.adopt.com/static/version1673017966/frontend/Adopt/hyva/fr_FR/images/colibri-footer.svg"
+              style="height: 50px"
+            />
+          </a>
+        </div>
+        <a id="ember110" class="ember-view" href="/dashboard">
+          <div
+            class="mx-6 bg-pink-aapl px-4 py-2 rounded text-center text-xs mt-4"
+          >
+            Portal Web Logistic
+          </div>
+        </a>
+
+        <div class="mt-4">
+          <div class="mx-6 mb-2"><b>Enlèvements</b></div>
+
+          <a id="ember111" class="ember-view active" href="/list">
+            <div
+              class="border-l-2 border-rose-500 px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-recycle mr-1"></i>
+              Enlèvements Selected
+            </div>
+          </a>
+          <a id="ember112" class="ember-view active" href="/list">
+            <div
+              class="border-l-2 border-transparent px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-circle-check mr-1"></i>
+              Valider Enlèvement
+            </div>
+          </a>
+        </div>
+
+        <div class="mt-4">
+          <div class="mx-6 mb-2 text-gray-400"><b>Commands</b></div>
+
+          <a id="ember113" class="ember-view active" href="/list">
+            <div
+              class="border-l-2 border-transparent px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-list mr-1"></i>
+              Command
+            </div>
+          </a>
+          <a id="ember114" class="ember-view active" href="/list">
+            <div
+              class="border-l-2 border-transparent px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-box-open mr-1"></i>
+              Consulter mes Commands
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div style="width: 85vw">
+        <section
+          class="px-10 py-2 text-sm"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <div style="width: 6em" class="text-gray-400">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div style="width: 100%" class="text-gray-400">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Search
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 14em;
+              position: relative;
+            "
+          >
+            <b>Sofia Moreira</b>
+            <img
+              src="https://media.istockphoto.com/id/1327592692/vector/default-avatar-photo-placeholder-icon-grey-profile-picture-business-woman.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=y-dvtlLq6ksJ9aJXkkw2prwGwSiQvY37JfPpb73wYTc="
+              style="height: 2em; border-radius: 100%; margin-left: 0.25em"
+            />
+            <div
+              class="shadow-lg p-2 rounded-lg border"
+              style="
+                position: absolute;
+
+                bottom: -5em;
+                width: 12em;
+                left: -2em;
+                text-align: right;
+              "
+            >
+              Menu
+              <a id="emberpihh" class="ember-view" href="/login"
+                ><div>Logout</div></a
+              >
+            </div>
+          </div>
+        </section>
+        <div style="display: flex" class="p-10">
+          <div style="width: 70vw">
+            <section>
+              <a id="ember115" class="ember-view active" href="/list">
+                <div class="relative aspect-w-16 aspect-h-4 mb-8">
+                  <img
+                    class="hidden w-full object-cover rounded-lg"
+                    src="https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3131&amp;q=80"
+                  />
+                  <div class="card-bg-overlay rounded-lg"></div>
+                  <div
+                    class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        color: white;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: large;
+                        text-shadow: 1px 1px 6px black;
+                        padding: 1em;
+                        text-align: center;
+                      "
+                    >
+                      <h1>enlèvements</h1>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </section>
+            <section>
+              <div class="flex flex-col">
+                <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                  <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class="overflow-hidden">
+                      <table class="min-w-full">
+                        <thead class="bg-white __border-b">
+                          <tr>
+                            <th
+                              scope="col"
+                              class="text-sm font-medium text-gray-400 px-6 py-4 text-left text-gray-400"
+                            ></th>
+                            <th
+                              scope="col"
+                              class="text-sm font-medium text-gray-400 px-6 py-4 text-left text-gray-400"
+                            >
+                              First
+                            </th>
+                            <th
+                              scope="col"
+                              class="text-sm font-medium text-gray-400 px-6 py-4 text-left text-gray-400"
+                            >
+                              Last
+                            </th>
+                            <th
+                              scope="col"
+                              class="text-sm font-medium text-gray-400 px-6 py-4 text-left text-gray-400"
+                            >
+                              Handle
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr
+                            class="adopt-tr bg-white __border-b hover:bg-gray-100 overflow-hidden cursor-pointer"
+                          >
+                            <td
+                              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 overflow-hidden rounded-l-lg"
+                            >
+                              <img
+                                class="h-8 rounded"
+                                src="https://www.pacifictrellisfruit.com/wp-content/uploads/2016/04/default-placeholder-300x300.png"
+                              />
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Jacob
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Thornton
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap overflow-hidden rounded-r-lg"
+                            >
+                              @fat
+                            </td>
+                          </tr>
+                          <tr
+                            class="adopt-tr bg-gray-100 __border-b hover:bg-gray-100 overflow-hidden cursor-pointer"
+                          >
+                            <td
+                              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 overflow-hidden rounded-l-lg"
+                            >
+                              <img
+                                class="h-8 rounded"
+                                src="https://www.pacifictrellisfruit.com/wp-content/uploads/2016/04/default-placeholder-300x300.png"
+                              />
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-pink-500 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Jacob
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-pink-500 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Thornton
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-pink-500 font-bold px-6 py-4 whitespace-nowrap overflow-hidden rounded-r-lg"
+                            >
+                              @fat
+                            </td>
+                          </tr>
+                          <tr
+                            class="adopt-tr bg-white __border-b hover:bg-gray-100 overflow-hidden cursor-pointer"
+                          >
+                            <td
+                              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 overflow-hidden rounded-l-lg"
+                            >
+                              <img
+                                class="h-8 rounded"
+                                src="https://www.pacifictrellisfruit.com/wp-content/uploads/2016/04/default-placeholder-300x300.png"
+                              />
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Jacob
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Thornton
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap overflow-hidden rounded-r-lg"
+                            >
+                              @fat
+                            </td>
+                          </tr>
+                          <tr
+                            class="adopt-tr bg-white __border-b hover:bg-gray-100 overflow-hidden cursor-pointer"
+                          >
+                            <td
+                              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 overflow-hidden rounded-l-lg"
+                            >
+                              <img
+                                class="h-8 rounded"
+                                src="https://www.pacifictrellisfruit.com/wp-content/uploads/2016/04/default-placeholder-300x300.png"
+                              />
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Jacob
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Thornton
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap overflow-hidden rounded-r-lg"
+                            >
+                              @fat
+                            </td>
+                          </tr>
+                          <tr
+                            class="adopt-tr bg-white __border-b hover:bg-gray-100 overflow-hidden cursor-pointer"
+                          >
+                            <td
+                              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 overflow-hidden rounded-l-lg"
+                            >
+                              <img
+                                class="h-8 rounded"
+                                src="https://www.pacifictrellisfruit.com/wp-content/uploads/2016/04/default-placeholder-300x300.png"
+                              />
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Jacob
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap"
+                            >
+                              Thornton
+                            </td>
+                            <td
+                              class="text-sm hover:text-pink-500 text-gray-900 font-bold px-6 py-4 whitespace-nowrap overflow-hidden rounded-r-lg"
+                            >
+                              @fat
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div style="width: 15vw"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

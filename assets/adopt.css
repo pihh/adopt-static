@@ -1,0 +1,57 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-pink-aapl {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff2d55+0,ff375f+100 */
+  background: #ff2d55; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ff2d55 0%,
+    #ff375f 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ff2d55 0%,
+    #ff375f 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #ff2d55 0%,
+    #ff375f 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2d55', endColorstr='#ff375f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: white;
+}
+
+.adopt-tr:hover td {
+  color: rgb(236 72 153) !important;
+}
+
+.card-bg-overlay {
+  overflow: hidden;
+}
+.card-bg-overlay:before {
+  content: "";
+  position: absolute;
+  width: 400vw;
+  height: 400vh;
+  top: -100vh;
+  left: -100vw;
+  z-index: 0;
+  background: url(/assets/logo-gray.svg) 0 0 repeat;
+  background-color: rgb(249 250 251);
+  transform: rotate(-15deg);
+  overflow: hidden;
+}
+
+.login-page {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background: url(/assets/bg.png);
+  background-size: cover;
+}

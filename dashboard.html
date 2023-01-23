@@ -1,0 +1,259 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dashboard | Adopt</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link integrity="" rel="stylesheet" href="/assets/adopt.css" />
+    <link integrity="" rel="stylesheet" href="/assets/tailwind.css" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="ember-application">
+    <div style="display: flex; height: 100vh">
+      <div class="bg-gray-50 py-6" style="width: 15vw">
+        <div
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <a id="ember116" class="ember-view active" href="/dashboard">
+            <img
+              src="https://www.adopt.com/static/version1673017966/frontend/Adopt/hyva/fr_FR/images/colibri-footer.svg"
+              style="height: 50px"
+            />
+          </a>
+        </div>
+        <a id="ember117" class="ember-view active" href="/dashboard">
+          <div
+            class="mx-6 bg-pink-aapl px-4 py-2 rounded text-center text-xs mt-4"
+          >
+            Portal Web Logistic
+          </div>
+        </a>
+
+        <div class="mt-4">
+          <div class="mx-6 mb-2"><b>Enlèvements</b></div>
+
+          <a id="ember118" class="ember-view" href="/list">
+            <div
+              class="border-l-2 border-rose-500 px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-recycle mr-1"></i>
+              Enlèvements Selected
+            </div>
+          </a>
+          <a id="ember119" class="ember-view" href="/list">
+            <div
+              class="border-l-2 border-transparent px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-circle-check mr-1"></i>
+              Valider Enlèvement
+            </div>
+          </a>
+        </div>
+
+        <div class="mt-4">
+          <div class="mx-6 mb-2 text-gray-400"><b>Commands</b></div>
+
+          <a id="ember120" class="ember-view" href="/list">
+            <div
+              class="border-l-2 border-transparent px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-list mr-1"></i>
+              Command
+            </div>
+          </a>
+          <a id="ember121" class="ember-view" href="/list">
+            <div
+              class="border-l-2 border-transparent px-5 text-xs text-gray-400 py-1"
+            >
+              <i class="fa-solid fa-box-open mr-1"></i>
+              Consulter mes Commands
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div style="width: 85vw">
+        <section
+          class="px-10 py-2 text-sm"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <div style="width: 6em" class="text-gray-400">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div style="width: 100%" class="text-gray-400">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Search
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 14em;
+              position: relative;
+            "
+          >
+            <b>Sofia Moreira</b>
+            <img
+              src="https://media.istockphoto.com/id/1327592692/vector/default-avatar-photo-placeholder-icon-grey-profile-picture-business-woman.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=y-dvtlLq6ksJ9aJXkkw2prwGwSiQvY37JfPpb73wYTc="
+              style="height: 2em; border-radius: 100%; margin-left: 0.25em"
+            />
+            <div
+              class="shadow-lg p-2 rounded-lg border"
+              style="
+                position: absolute;
+
+                bottom: -5em;
+                width: 12em;
+                left: -2em;
+                text-align: right;
+              "
+            >
+              Menu
+              <a id="emberpihh" class="ember-view" href="/login"
+                ><div>Logout</div></a
+              >
+            </div>
+          </div>
+        </section>
+        <div style="display: flex" class="p-10">
+          <div style="width: 70vw">
+            <h1 class="font-bold mb-6 text-3xl">Enlèvements</h1>
+            <div class="columns-2">
+              <a id="ember122" class="ember-view" href="/list">
+                <div class="relative aspect-w-16 aspect-h-9 mb-8">
+                  <img
+                    class="hidden w-full object-cover rounded-lg"
+                    src="https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3131&amp;q=80"
+                  />
+                  <div class="card-bg-overlay rounded-lg"></div>
+                  <div
+                    class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        color: white;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: large;
+                        text-shadow: 1px 1px 6px black;
+                        padding: 1em;
+                        text-align: center;
+                      "
+                    >
+                      <h1>enlèvements</h1>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a id="ember123" class="ember-view" href="/list">
+                <div class="relative aspect-w-16 aspect-h-9 mb-8">
+                  <img
+                    class="hidden w-full object-cover rounded-lg"
+                    src="https://images.unsplash.com/photo-1498603993951-8a027a8a8f84?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2936&amp;q=80"
+                  />
+                  <div class="card-bg-overlay rounded-lg"></div>
+                  <div
+                    class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        color: white;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: large;
+                        text-shadow: 1px 1px 6px black;
+                        padding: 1em;
+                        text-align: center;
+                      "
+                    >
+                      <h1>Valider un enlèvement</h1>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <h1 class="font-bold mb-6 text-3xl">Commands</h1>
+            <div class="columns-2">
+              <a id="ember124" class="ember-view" href="/list">
+                <div class="relative aspect-w-16 aspect-h-9 mb-8">
+                  <img
+                    class="hidden w-full object-cover rounded-lg"
+                    src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2952&amp;q=80"
+                  />
+                  <div class="card-bg-overlay rounded-lg"></div>
+                  <div
+                    class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        color: white;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: large;
+                        text-shadow: 1px 1px 6px black;
+                        padding: 1em;
+                        text-align: center;
+                      "
+                    >
+                      <h1>consulter mes commands</h1>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a id="ember125" class="ember-view" href="/list">
+                <div class="relative aspect-w-16 aspect-h-9 mb-8">
+                  <img
+                    class="hidden w-full object-cover rounded-lg"
+                    src="https://images.unsplash.com/photo-1498603993951-8a027a8a8f84?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2936&amp;q=80"
+                  />
+                  <div class="card-bg-overlay rounded-lg"></div>
+                  <div
+                    class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"
+                  >
+                    <div class="card-body-title">
+                      <h1>Efectuer un command</h1>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div style="width: 15vw"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
